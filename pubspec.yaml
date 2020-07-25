@@ -1,0 +1,70 @@
+name: easy_life
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build nu
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+ 
+  cupertino_icons: ^0.1.2
+  material_design_icons_flutter: ^4.0.5145
+  cached_network_image: ^2.1.0+1
+  firebase_auth: ^0.16.0
+  firebase_storage: ^3.1.5
+  cloud_firestore: ^0.13.5
+  provider: ^4.0.5+1
+  fluttertoast: ^4.0.1
+  image_picker: ^0.6.5
+  flutter_swiper: ^1.1.6
+  flutter_custom_clippers: ^1.1.1
+  http: ^0.12.1
+  location: ^3.0.0
+  connectivity: ^0.4.8+6
+ 
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+
+  - image/
+
+ 
+  fonts:      
+     - family: Prata
+       fonts:
+         - asset: font/Prata-Regular.ttf
+     - family: Libre
+       fonts:
+         - asset: font/LibreBaskerville-Regular.ttf
+     - family: Monts
+       fonts:
+         - asset: font/Montserrat-Regular.ttf
+     - family: Muli
+       fonts:
+         - asset: font/Muli-Regular.ttf
+     - family: Ptsans
+       fonts:
+         - asset: font/PTSans-Regular.ttf
+     - family: Fred
+       fonts:
+         - asset: font/FredokaOne-Regular.ttf
+    
